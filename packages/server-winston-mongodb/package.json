@@ -1,0 +1,19 @@
+{
+  "name": "@hope/server-winston-mongodb",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@hope/server-winston-entities": "workspace:*",
+    "@typegoose/typegoose": "^11.5.0",
+    "deep-extend": "^0.6.0",
+    "mongoose": "^7.5.4",
+    "typesafe-event-emitter": "^1.1.0",
+    "winston": "^3.10.0",
+    "winston-transport": "^4.5.0"
+  },
+  "devDependencies": {
+    "mongodb": "^6.1.0",
+    "mongodb-memory-server": "^9.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@hope/server-winston-entities",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "scripts": {},
+  "dependencies": {
+    "@typegoose/typegoose": "^11.5.0"
+  }
+}

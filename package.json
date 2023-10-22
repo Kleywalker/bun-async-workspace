@@ -1,0 +1,24 @@
+{
+  "name": "@hope/bun-async-workspace",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "license": "UNLICENSED",
+  "private": true,
+  "author": {
+    "name": "Stefan Kley",
+    "email": "code@kleywalker.de"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bun-types": "1.0.3"
+  }
+}
